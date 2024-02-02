@@ -2,7 +2,9 @@
   "name": "@play-with-react/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "serve:react-router": "nx run react-router:serve:development --open"
+  },
   "private": true,
   "devDependencies": {
     "@nx/eslint": "17.3.1",
@@ -41,6 +43,7 @@
   },
   "dependencies": {
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-router-dom": "^6.22.0"
   }
 }
